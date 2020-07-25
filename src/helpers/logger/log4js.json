@@ -2,7 +2,7 @@
     "appenders": {
         "fileAppender": {
             "type": "dateFile",
-            "filename": "./UCSSResults/testLog.log",
+            "filename": "./src/UCSSResults/testLog.log",
             "layout": {
                 "type": "pattern",
                 "pattern": "%d - %c:[%p]: %m"

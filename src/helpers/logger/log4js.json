@@ -1,0 +1,23 @@
+{
+    "appenders": {
+        "fileAppender": {
+            "type": "dateFile",
+            "filename": "./UCSSResults/testLog.log",
+            "layout": {
+                "type": "pattern",
+                "pattern": "%d - %c:[%p]: %m"
+            },
+            "flags": "w",
+            "pattern": ".yyyy-MM-dd-hh-mm-ss", 
+            "compress": false,
+            "alwaysIncludePattern": true,
+            "keepFileExt": true
+        }
+    },
+    "categories": {
+        "default": {
+            "appenders": ["fileAppender"],
+            "level": "info"
+        }
+    }
+}

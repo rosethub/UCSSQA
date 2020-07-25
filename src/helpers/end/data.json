@@ -1,0 +1,12 @@
+{
+    "input": {
+    },
+    
+    "expected": {
+    },
+
+    "tag":{
+        "logoutPageCss" : ".fas.fa-sign-out-alt",
+        "logoutPageLoginBtnTxt" : "Logout"
+    }
+}

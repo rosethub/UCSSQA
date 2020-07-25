@@ -1,0 +1,15 @@
+{
+    "input": {
+        "UCSSQA" : "https://qautilities-self-service.seattle.gov/eportal/#/",
+        "UCSSUAT" : "https://qautilities-self-service.seattle.gov/eportal/#/",
+        "UCSSPROD" : "https://myutilities.seattle.gov/eportal/#/"
+    },
+    
+    "expected": {
+        "landingPageText" : "Welcome to the City of Seattle Utility Services Website"
+    },
+
+    "tag":{
+        "landingPageCSS" : ".intro-content"
+    }
+}

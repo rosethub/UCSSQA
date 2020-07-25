@@ -1,0 +1,21 @@
+{
+    "input": {
+        "userame" : "qamay17",
+        "password" : "Power@206"
+    },
+    
+    "expected": {
+        "loginTxt" : "Login",
+        "accountOverView" : "ACCOUNT OVERVIEW"
+    },
+
+    "tag":{
+        "landingPageLoginBtnTxt" : "Log Into Your Profile",
+        "loginPageCss" : ".col-xs-10",
+        "loginPageUserNameId" : "userName",
+        "loginPagePasswordXpath" : "//input[@name='password']",
+        "loginPageLoginBtnTxt" : "Login",
+        "accountOverviewPageCss" : ".accounts-container",
+        "accountOverviewPageCssTxt" : "Account Overview"
+    }
+}
